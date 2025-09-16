@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 # MarketPulse Changelog
 
+## [Day 4] - 2025-09-16 - Portfolio Theory & AI Optimization
+
+### Added
+- Complete Modern Portfolio Theory engine with efficient frontier generation
+- AI-enhanced portfolio optimization with multi-provider intelligence
+- Personal finance integration with goal-based SIP strategies
+- Tax optimization system for Indian markets (LTCG/STCG/Section 80C)
+- Complete portfolio management system with rebalancing analysis
+- Comprehensive external audit achieving Grade A- validation
+
+### Fixed
+- CRITICAL: Goal-based allocation return calculation using proper financial mathematics (numpy_financial)
+- AI cost optimization with smart provider failover
+- Indian tax law compliance integration
+
+### Changed
+- Enhanced AI prompts for Indian market context and tax strategies
+- Improved system integration architecture for end-to-end portfolio management
+
 ## [0.4.0] - 2025-09-16 (Day 3: Multi-Timeframe AI Confluence System)
 
 ### Added
