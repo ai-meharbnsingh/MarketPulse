@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3365be1b-b6b7-41bf-8847-fba27407bfe1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Trading_App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Trading_App.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/context_summary.md" beforeDir="false" afterPath="$PROJECT_DIR$/context_summary.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_structure.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project_structure.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next_day_plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/next_day_plan.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +54,7 @@
       <recent name="D:\Users\OMEN\Trading_App\02_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.show_structure">
+  <component name="RunManager" selected="Python tests.Python tests in test_day2_risk_system.py">
     <configuration name="ai_risk_assessor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Trading_App" />
       <option name="ENV_FILES" value="" />
@@ -195,10 +197,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_day2_risk_system.py" />
         <item itemvalue="Python.show_structure" />
         <item itemvalue="Python.risk_calculator" />
         <item itemvalue="Python.ai_risk_assessor" />
-        <item itemvalue="Python tests.Python tests in test_day2_risk_system.py" />
         <item itemvalue="Python tests.Python tests in framework_test_simple.py" />
       </list>
     </recent_temporary>
