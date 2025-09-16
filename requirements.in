@@ -1,0 +1,34 @@
+# File: requirements.in
+# This file lists the direct dependencies of the project.
+# Use 'pip-compile' to generate the requirements.txt file.
+
+# --- Core Framework ---
+anthropic
+python-dotenv
+pyyaml
+requests
+httpx
+openai
+
+# --- AI & Trading ---
+pandas
+numpy-financial
+yfinance
+pandas-ta
+
+# --- Dashboard ---
+streamlit
+plotly
+seaborn  # matplotlib is a dependency of seaborn, so we don't need to list it
+
+# --- Testing & Development ---
+pytest
+pytest-asyncio
+
+# --- Google AI ---
+google-generativeai
+
+# --- Data Processing ---
+beautifulsoup4
+multitasking
+peewee
