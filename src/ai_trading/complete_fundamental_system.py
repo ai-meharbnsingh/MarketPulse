@@ -53,6 +53,16 @@ class ComprehensiveInvestmentAnalysis:
     data_quality_score: float  # 0-100
     analysis_completeness: float  # 0-100
 
+    @property
+    def recommendation(self) -> str:
+        """Alias for investment_recommendation to maintain compatibility"""
+        return self.investment_recommendation
+
+    @property
+    def position_size(self) -> float:
+        """Alias for position_size_recommendation to maintain compatibility"""
+        return self.position_size_recommendation
+
 
 class CompleteFundamentalSystem:
     """
