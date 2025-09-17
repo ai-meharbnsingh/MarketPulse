@@ -714,5 +714,28 @@ async def test_confluence_scoring():
         return False
 
 
+class ConfluenceScorer:
+    def __init__(self):
+        self.weights = {'technical': 0.4, 'fundamental': 0.3, 'risk': 0.3}
+
+    def calculate_confluence_score(self, data):
+        tech_score = data.get('technical_confidence', 0.5) * 100
+        fund_score = data.get('fundamental_score', 50)
+        risk_normalized = max(0, (10 - data.get('risk_score', 5)) * 10)
+
+        confluence_score = (
+                tech_score * self.weights['technical'] +
+                fund_score * self.weights['fundamental'] +
+                risk_normalized * self.weights['risk']
+        )
+
+        final_signal = 'BUY' if confluence_score >= 70 else 'SELL' if confluence_score <= 30 else 'HOLD'
+
+        return {
+            'confluence_score': round(confluence_score, 2),
+            'final_signal': final_signal,
+            'confidence_level': 'HIGH' if confluence_score >= 70 or confluence_score <= 30 else 'MEDIUM'
+        }
+
 if __name__ == "__main__":
     asyncio.run(test_confluence_scoring())

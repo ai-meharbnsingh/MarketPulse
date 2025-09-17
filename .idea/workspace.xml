@@ -6,12 +6,28 @@
   <component name="ChangeListManager">
     <list default="true" id="4e229276-6711-49b2-bd40-6a09da2b5650" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_test/find_framework.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_test/framework_test_clean.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_test/framework_test_simple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_test/key_test_updated.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_test/quick_test_day3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_test/test_day2_risk_system.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_test/test_day2_risk_system_fixed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rules" beforeDir="false" afterPath="$PROJECT_DIR$/Rules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/context_summary.md" beforeDir="false" afterPath="$PROJECT_DIR$/context_summary.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_structure_Day5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next_day_plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/next_day_plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_structure.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project_structure.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ai_trading/ai_document_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai_trading/ai_document_processor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ai_trading/ai_fundamental_analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai_trading/ai_fundamental_analyzer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ai_trading/ai_risk_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai_trading/ai_risk_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ai_trading/ai_signal_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai_trading/ai_signal_generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ai_trading/complete_fundamental_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai_trading/complete_fundamental_system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ai_trading/confluence_scoring_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai_trading/confluence_scoring_system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ai_trading/portfolio_theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai_trading/portfolio_theory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/antifragile_framework/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/antifragile_framework/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +40,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="32msIQY65wrO0oN2J5emhb2FKiB" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -39,9 +55,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.CV.executor": "Run",
+    "Python.alpha_core.executor": "Run",
+    "Python.cleanup_project_structure.executor": "Run",
     "Python.complete_day6.executor": "Run",
+    "Python.comprehensive_day1_to_day8_validator.executor": "Run",
+    "Python.confluence_dashboard.executor": "Run",
     "Python.day6_integration_test.executor": "Run",
+    "Python.phase1_day8_validation.executor": "Run",
     "Python.show_structure.executor": "Run",
+    "Python.test_phase1_day9_fixed.executor": "Run",
+    "Python.timeseries_forecaster.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
@@ -52,7 +75,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.show_structure">
-    <configuration name="CV" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="alpha_core" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Trading_App" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/models/alpha_model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CV.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/models/alpha_model/alpha_core.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="complete_day6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="comprehensive_day1_to_day8_validator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Trading_App" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,33 +106,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Users\OMEN\Trading_App\03_docs\complete_day6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="day6_integration_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Trading_App" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/day6_integration_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/comprehensive_day1_to_day8_validator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,28 +141,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_day7.sh" type="ShConfigurationType" temporary="true">
-      <option name="SCRIPT_TEXT" value="" />
-      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/run_day7.sh" />
-      <option name="SCRIPT_OPTIONS" value="" />
-      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
-      <option name="INTERPRETER_PATH" value="powershell.exe" />
+    <configuration name="test_phase1_day9_fixed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Trading_App" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="EXECUTE_IN_TERMINAL" value="true" />
-      <option name="EXECUTE_SCRIPT_FILE" value="true" />
-      <envs />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_phase1_day9_fixed.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="timeseries_forecaster" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Trading_App" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/models/timeseries_forecaster.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.show_structure" />
-        <item itemvalue="Shell Script.run_day7.sh" />
-        <item itemvalue="Python.CV" />
-        <item itemvalue="Python.complete_day6" />
-        <item itemvalue="Python.day6_integration_test" />
+        <item itemvalue="Python.test_phase1_day9_fixed" />
+        <item itemvalue="Python.comprehensive_day1_to_day8_validator" />
+        <item itemvalue="Python.alpha_core" />
+        <item itemvalue="Python.timeseries_forecaster" />
       </list>
     </recent_temporary>
   </component>

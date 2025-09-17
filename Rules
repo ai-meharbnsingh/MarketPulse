@@ -3,6 +3,7 @@ Few Rules we will follow,
 2. At the end of the day we will re audit everyting with Geming or CHat GPT for all the codings or starategis
 3. in case a error appears more than three times we will take support from external auditor you will provide me the prompt.
 4. Every code provided wil be one at a time not evyerthjng to gether.
+4.1. Ensure to read the project Struture everytime you create any code and put the files in prefedined strcuture dont pyt anything with new struture.
 5. We will kepp Sessions small not big
 6. We will ensure
     Rule 1: Step-by-Step Process
@@ -15,6 +16,7 @@ Few Rules we will follow,
         you will provide the full, unabridged code for any modified file and will not omit any functions or sections for the sake of brevity.
     Rule 5: Always put folder location and file location of each of the code box "#01_aa/y/py"
 7. At the end of the session
+    - Always RUn the tests for current sessions so that everything is working properly.
     - Always ask me to updated requirements.txt up-to-date (pip freeze > requirements.txt) at the end of the session.
     - You will ask me to edit context_summary.md. You will provide suggestions for its content based on our session, but you must finalize  and save it at the end of the session
         	Key progress made.

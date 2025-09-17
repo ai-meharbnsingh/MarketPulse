@@ -2,7 +2,7 @@ PROJECT STRUCTURE
 ==================================================
 Project: Trading_App
 Location: D:\Users\OMEN\Trading_App
-Generated: 2025-09-16 22:33:20
+Generated: 2025-09-17 19:07:37
 Max Depth: 5
 
 📁 Trading_App/
@@ -72,20 +72,13 @@ Max Depth: 5
 │   ├── 📄 performance_benchmark.py
 │   └── 📄 pyproject.toml
 ├── 📁 02_test
-│   ├── 📁 .pytest_cache
-│   │   ├── 📁 v
-│   │   │   └── 📁 cache
-│   │   │       ├── 📄 lastfailed
-│   │   │       └── 📄 nodeids
-│   │   ├── 📄 CACHEDIR.TAG
-│   │   └── 📄 README.md
-│   ├── 📄 find_framework.py
-│   ├── 📄 framework_test_clean.py
-│   ├── 📄 framework_test_simple.py
-│   ├── 📄 key_test_updated.py
-│   ├── 📄 quick_test_day3.py
-│   ├── 📄 test_day2_risk_system.py
-│   └── 📄 test_day2_risk_system_fixed.py
+│   └── 📁 .pytest_cache
+│       ├── 📁 v
+│       │   └── 📁 cache
+│       │       ├── 📄 lastfailed
+│       │       └── 📄 nodeids
+│       ├── 📄 CACHEDIR.TAG
+│       └── 📄 README.md
 ├── 📁 03_docs
 │   ├── 📄 complete_day6.py
 │   ├── 📄 day1_complete_summary.md
@@ -94,16 +87,33 @@ Max Depth: 5
 │   ├── 📄 Day7_Review.md
 │   ├── 📄 day7_session_summary.md
 │   ├── 📄 day_2_complete_summary.md
-│   └── 📄 personal_trading_plan.md
+│   ├── 📄 personal_trading_plan.md
+│   └── 📄 phase1_day8_cleanup_report.md
+├── 📁 config
+├── 📁 data
+│   └── 📄 marketpulse.db
+├── 📁 integration
+│   └── 📄 phase1_day8_pipeline.py
+├── 📁 models
+│   ├── 📁 alpha_model
+│   └── 📁 timeseries
+├── 📁 notebooks
+├── 📁 results
+│   └── 📁 backtesting
 ├── 📁 scripts
+│   ├── 📁 database_migration
+│   │   └── 📄 postgresql_migration_plan.py
 │   ├── 📄 changelog.md
 │   ├── 📄 check_missing_components.py
+│   ├── 📄 cleanup_project_structure.py
 │   ├── 📄 day6_integration_test.py
 │   ├── 📄 day7_complete_system_test.py
 │   ├── 📄 day7_performance_optimizer.py
 │   ├── 📄 day7_session_complete.py
 │   ├── 📄 fix_encoding_issues.py
+│   ├── 📄 fix_specific_validation_issues.py
 │   ├── 📄 next_day_plan.md
+│   ├── 📄 repair_system_issues.py
 │   └── 📄 run_day7.sh
 ├── 📁 src
 │   ├── 📁 ai_trading
@@ -127,23 +137,53 @@ Max Depth: 5
 │   │   ├── 📄 personal_finance_integrator.py
 │   │   ├── 📄 portfolio_theory.py
 │   │   ├── 📄 professional_technical_analyzer.py
+│   │   ├── 📄 realtime_data_collector.py
 │   │   ├── 📄 risk_calculator.py
-│   │   └── 📄 system_monitor.py
+│   │   ├── 📄 system_monitor.py
+│   │   └── 📄 websocket_streaming_service.py
 │   ├── 📁 antifragile_framework
 │   │   ├── 📄 __init__.py
 │   │   └── 📄 antifragile_framework.py
 │   ├── 📁 dashboard
 │   │   ├── 📄 chart_components.py
 │   │   └── 📄 confluence_dashboard.py
-│   └── 📁 marketpulse.egg-info
-│       ├── 📄 dependency_links.txt
-│       ├── 📄 PKG-INFO
-│       ├── 📄 requires.txt
-│       ├── 📄 SOURCES.txt
-│       └── 📄 top_level.txt
+│   ├── 📁 data
+│   │   ├── 📁 collectors
+│   │   │   └── 📄 realtime_market_data.py
+│   │   ├── 📁 processors
+│   │   └── 📁 streaming
+│   │       └── 📄 websocket_service.py
+│   ├── 📁 integration
+│   │   └── 📄 phase1_day8_pipeline.py
+│   ├── 📁 marketpulse.egg-info
+│   │   ├── 📄 dependency_links.txt
+│   │   ├── 📄 PKG-INFO
+│   │   ├── 📄 requires.txt
+│   │   ├── 📄 SOURCES.txt
+│   │   └── 📄 top_level.txt
+│   └── 📁 models
+│       ├── 📁 alpha_model
+│       │   └── 📄 alpha_core.py
+│       ├── 📁 backtesting
+│       │   └── 📄 ml_backtester.py
+│       ├── 📁 predictive
+│       └── 📄 timeseries_forecaster.py
+├── 📁 test
+│   ├── 📄 comprehensive_day1_to_day8_validator.py
+│   ├── 📄 comprehensive_test.py
+│   ├── 📄 find_framework.py
+│   ├── 📄 framework_test_clean.py
+│   ├── 📄 framework_test_simple.py
+│   ├── 📄 key_test_updated.py
+│   ├── 📄 phase1_day8_validation.py
+│   ├── 📄 quick_test_day3.py
+│   ├── 📄 simple_phase1_day8_test.py
+│   ├── 📄 test_day2_risk_system.py
+│   ├── 📄 test_day2_risk_system_fixed.py
+│   ├── 📄 test_phase1_day9_fixed.py
+│   └── 📄 test_realtime_system.py
 ├── 📄 changelog.md
 ├── 📄 context_summary.md
-├── 📄 CV.py
 ├── 📄 Market_Pulse_Progress.md
 ├── 📄 master_development_plan.md
 ├── 📄 mkt_pulse.md
@@ -159,5 +199,5 @@ Max Depth: 5
 └── 📄 verify_keys.py
 
 ==================================================
-Total items displayed: 151
+Total items displayed: 191
 Generated by Project Structure Generator

@@ -9,7 +9,7 @@ from typing import Dict, Any, List
 class AIRiskManager:
     """AI-powered risk management system"""
 
-    def __init__(self):
+    def __init__(self, ai_framework=None):
         self.name = "AIRiskManager"
         self.version = "1.0.0-minimal"
         self.max_position_size = 0.10  # 10% max

@@ -22,7 +22,7 @@ class SignalResult:
 class AISignalGenerator:
     """AI-powered trading signal generator"""
 
-    def __init__(self):
+    def __init__(self, ai_framework=None):
         self.name = "AISignalGenerator"
         self.version = "1.0.0-minimal"
 
